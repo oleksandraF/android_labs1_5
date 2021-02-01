@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="@string/main_title"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn_shape_1"
+            android:text="@string/lab1_btn"
+            android:onClick="lab1Click"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn_shape_1"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:text="@string/lab2_btn"
+            android:onClick="lab2Click"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn_shape_1"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:text="@string/lab3_btn"
+            android:onClick="lab3Click"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn_shape_1"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:text="@string/lab4_btn"
+            android:onClick="lab4Click" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn_shape_1"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:text="@string/lab5_btn"
+            android:onClick="lab5Click" />
+
+        <Button
+            android:id="@+id/button_exit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn_shape_1"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:onClick="exitClick"
+            android:text="@string/exit_btn" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

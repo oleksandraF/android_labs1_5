@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id = "@+id/lab2_context_menu_large"
+        android:title = "@string/lab2_context_large" />
+    <item
+        android:id = "@+id/lab2_context_menu_norm"
+        android:title = "@string/lab2_context_norm" />
+    <item
+        android:id = "@+id/lab2_context_menu_small"
+        android:title = "@string/lab2_context_small" />
+
+</menu>

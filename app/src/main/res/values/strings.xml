@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Consultations</string>
+    <string name="main_title">Запис на консультацію</string>
+    <string name="lab1_btn">Лабораторна робота 1</string>
+    <string name="lab2_btn">Лабораторна робота 2</string>
+    <string name="lab3_btn">Лабораторна робота 3</string>
+    <string name="lab4_btn">Лабораторна робота 4</string>
+    <string name="lab5_btn">Лабораторна робота 5</string>
+    <string name="exit_btn">Завершити роботу</string>
+    <string name="lab1_logo">Загальна інформація</string>
+    <string name="lab1_str1">Консультація</string>
+    <string name="lab1_str2">з викладачем</string>
+    <string name="lab1_descr">Оберіть розділ</string>
+    <string name="faq1">Яка тривалість консультації?</string>
+    <string name="ans1">Консультація триває одну навчальну пару</string>
+    <string name="faq2">Хто проводить консультацію?</string>
+    <string name="ans2">Консультацію проводить викладач, що веде лекційні заняття</string>
+    <string name="faq3">Яка кількість консультацій?</string>
+    <string name="ans3">З кожної дисципліни передбачено дві консультації</string>
+    <string-array name="lab1_vars">
+        <item>Час</item>
+        <item>Місце</item>
+        <item>Теми</item>
+    </string-array>
+    <string-array name="lab1_descr">
+        <item>09:00 - 16:30</item>
+        <item>Кабінет викладача</item>
+        <item>Поточні дисципліни</item>
+    </string-array>
+
+    <string name="lab2_dialog_header">Підтвердіть дію</string>
+    <string name="lab2_dialog_message">Перейти до головної сторінки?</string>
+    <string name="lab2_dialog_pos_btn">Так</string>
+    <string name="lab2_dialog_neg_btn">Ні</string>
+    <string name="lab2_meu1_item1">Головна</string>
+    <string name="lab2_meu1_item2">Часті питання</string>
+    <string name="lab2_context_header">Оберіть розмір</string>
+    <string name="lab2_context_large">Великий шрифт</string>
+    <string name="lab2_context_norm">Нормальний шрифт</string>
+    <string name="lab2_context_small">Малий шрифт</string>
+    <string name="lab2_press_me">Утримуйте деякий час для зміни розміру шрифту</string>
+    <string name="lab2_main_text">Для групи з кожної дисципліни передбачено дві консультації - поточна та передекзаменаційна. На поточній розглядаються питання дисципліни. На передекзаменаційній обговорюються та уточнюються контрольні питання та зміст екзаменційних білетів.</string>
+
+    <string name="lab3_title">Авторизація</string>
+    <string name="lab3_first_start">Перший запуск - ініціалізація БД...</string>
+    <string name="lab3_name">Ім\'я</string>
+    <string name="lab3_pass">Пароль</string>
+    <string name="lab3_login">Вхід</string>
+    <string name="lab3_exit">Закрити</string>
+    <string name="lab3_no_name">Введіть Ім\'я</string>
+    <string name="lab3_no_pass">Введіть Пароль</string>
+    <string name="lab3_login_ok">Авторизація успішна</string>
+    <string name="lab3_login_fail">Авторизацію відхилено</string>
+    <string name="lab3_db_error">Помилка БД. Повторіть спробу пізніше</string>
+
+    <string name="lab4_txt1">Маєте питання з навчання</string>
+    <string name="lab4_txt2">Ми допоможемо Вам з усіма відповідями</string>
+
+    <string name="lab5_start_service">Запустити службу повідомлень</string>
+    <string name="lab5_stop_service">Зупинити службу повідомлень</string>
+    <string name="lab5_title">Керування службою повідомлень</string>
+    <string name="lab5_message">Чи маєте запитання?</string>
+    <string name="lab5_get_photo">Зробити фото</string>
+
+</resources>
